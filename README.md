@@ -1,8 +1,21 @@
 # README
 
-> WIP
-![alt text](docs/comfy_runner_flow.png)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.12+](https://img.shields.io/badge/Python-3.12+-blue.svg?style=flat-square)](https://www.python.org/downloads/)
 
+> [!TIP]
+> If you find this project useful, consider supporting its development:
+
+<p align="left">
+  <a href="https://github.com/sponsors/dattasaurabh82">
+    <img src="https://img.shields.io/badge/Sponsor-❤-ea4aaa?style=for-the-badge&logo=github" alt="Sponsor on GitHub">
+  </a>
+  <a href="https://buymeacoffee.com/dattasaurabh82">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee">
+  </a>
+</p>
+
+![alt text](docs/comfy_runner_architechture.png)
 
 A general purpose yet advanced python-based middleware service that provides a comprehensive REST API interface for executing ComfyUI workflows. It features real-time WebSocket event streaming, relaying web socket messages from ComfyUI to others. For example, sending realtime preview image data byte streams from KSampler nodes via websockets.
 It is also capable of dynamically updating input node values and is designed to be general purpose with flexible configuration-driven node management.
@@ -137,9 +150,6 @@ The server will:
 - __8188__: ComfyUI server (HTTP + WebSocket)
 - __8189__: Middleware HTTP API (configurable)
 - __8190__: Middleware WebSocket relay (configurable)
-
-
-![alt text](docs/comfy_runner_architechture.png)
 
 
 ## HTTP API Endpoints
